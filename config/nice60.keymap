@@ -40,15 +40,15 @@
 		nav_layer {
 // ---------------------------------------------------------------------------
 // | `~ | F1 | F2 | F3 | F4 | F5 | F6 | F7 | F8 | F9 |F10 |F11 |F12 |  DEL   |
-// |      |    |    |    |    |    |    |    |    |    |    |    |    | HOME |
-// |       |    |    |    |    |    |    |    |    |    |    | `~ ||   END   |
+// |      |    |    |    |    |    |    |    | UP |    |    |    |    | HOME |
+// |       |    |    |    |    |    |    | LT | DN | RT |    | `~ ||   END   |
 // |         ||    |    |    |    |    |    |    |    |    | UP ||   MO(2)   |
 // |     |     |     ||||                         |||| LT  | DN  | RT  |     |
 // ---------------------------------------------------------------------------
 			bindings = <
 	&kp GRAVE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DEL
-	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME
-	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp GRAVE  &kp END
+	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp UP  &trans  &trans  &trans  &trans  &kp HOME
+	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp GRAVE  &kp END
 	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp UP  &mo 2
 	&trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
 			>;
