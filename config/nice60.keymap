@@ -53,7 +53,7 @@
 	&kp GRAVE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DEL
 	&mo 2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp UP  &trans  &trans  &trans  &trans  &trans
 	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp GRAVE  &trans
-	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp UP  &mo 2
+	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 	&trans  &trans  &trans  &trans  &kp HOME  &kp PGDN  &kp PGUP  &kp END
 			>;
 		};
